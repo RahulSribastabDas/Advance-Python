@@ -16,7 +16,11 @@ def update_attendance(name, status):
 # Function to display all attendance
 def show_attendance():
     if not attendance:
+<<<<<<< HEAD
         print("No attendance records found.")     
+=======
+        print("No attendance records found.")
+>>>>>>> ff5385e0a7eb4bc69c51a2af5c4c1bcf986a9583
         return
 
     print("\n--- Attendance List ---")
