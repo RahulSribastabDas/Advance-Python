@@ -17,3 +17,4 @@ while not guessed_correctly:
             print(f"Congratulations! You've guessed the number {number_to_guess} in {attempts} attempts.")
     except ValueError:
         print("Invalid input. Please enter a number between 1 and 100.")
+        print("Please try again.")
