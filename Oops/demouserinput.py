@@ -17,3 +17,5 @@ branch = input("Enter your branch: ")
 # Creating object using user input
 s1 = Student(name, age, branch)
 s1.greet()
+
+        
