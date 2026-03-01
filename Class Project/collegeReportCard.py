@@ -38,5 +38,5 @@ class StudentReport(AcademicMark, SportsMark):
         print(f"Sports Marks: {self.sports_marks}")
 
 
-student_report = StudentReport("John Doe", "12345", "A", 85, 90)
+student_report = StudentReport("Rahul", "546", "I", 75, 95)
 student_report.display_report()
