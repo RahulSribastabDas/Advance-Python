@@ -23,13 +23,13 @@ class stu:
         print("Name:",self.name)
         print("Age:",self.age)
 
-s=stu("Ranjeet",21)
+s=stu("Rahul",20)
 print(s.__dict__)
 
 """
 """
 x=10
-y="Ranjeet"
+y="Rahul"
 z=10.5
 print(x.__class__)
 print(y.__class__)
