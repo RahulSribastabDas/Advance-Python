@@ -1,3 +1,2 @@
-Hello
-Good Morning
-Welcome to todays class
+I am GIETU Student
+I am learning Python

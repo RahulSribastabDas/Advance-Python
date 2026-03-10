@@ -19,10 +19,19 @@ f.write(line)  # it will write the modified line back to the file
 f.close()'''
 
 #r+ - first read the file and then write to the file
-f=open("file1.txt", "r+")
+'''f=open("file1.txt", "r+")
 print(f.tell()) # it will return the current position of the file pointer
 f.write("Hello\n") # it will write "Hello" at the current position of the file pointer
 print(f.tell()) # it will return the current position of the file pointer after writing "Hello"
 print(f.seek(0)) # it will move the file pointer to the beginning of the file
 print(f.read()) # it will read the remaining content of the file from the current position of the file pointer
-#f.write("Hello")
+#f.write("Hello")'''
+
+#w+ - first write to the file and then read the file
+f=open("file1.txt", "w+")
+f.write("I am GIETU Student\n") 
+f.write("I am learning Python\n") 
+print(f.tell()) # it will return the current position of the file pointer after writing "Hello"
+print(f.seek(0)) # it will move the file pointer to the beginning of the file
+print(f.read()) # it will read the content of the file from the current position of the file pointer    
+print(f.tell()) # it will return the current position of the file pointer after reading the content of the file
