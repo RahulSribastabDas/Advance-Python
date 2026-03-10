@@ -28,10 +28,17 @@ print(f.read()) # it will read the remaining content of the file from the curren
 #f.write("Hello")'''
 
 #w+ - first write to the file and then read the file
-f=open("file1.txt", "w+")
+'''f=open("file1.txt", "w+")
 f.write("I am GIETU Student\n") 
 f.write("I am learning Python\n") 
 print(f.tell()) # it will return the current position of the file pointer after writing "Hello"
 print(f.seek(0)) # it will move the file pointer to the beginning of the file
 print(f.read()) # it will read the content of the file from the current position of the file pointer    
-print(f.tell()) # it will return the current position of the file pointer after reading the content of the file
+print(f.tell()) # it will return the current position of the file pointer after reading the content of the file'''
+
+#a+ - first append to the file and then read the file
+f=open("file1.txt", "a+")
+f.write("\n I am studying in GIETU")
+f.write("\n I am learning Python")
+f.seek(0) # it will move the file pointer to the beginning of the file
+print(f.read()) # it will read the content of the file from the current position of the file pointer

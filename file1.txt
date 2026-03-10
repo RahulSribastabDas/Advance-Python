@@ -1,2 +1,5 @@
 I am GIETU Student
 I am learning Python
+
+ I am studying in GIETU
+ I am learning Python
