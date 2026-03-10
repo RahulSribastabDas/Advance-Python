@@ -1,4 +1,4 @@
-f = open("file1.txt", "x")   # create a file with name file1.txt
+#f = open("file1.txt", "x")   # create a file with name file1.txt
 
 # ""f= open("file1.txt", "r")   # open the file in read mode
 # data = f.read()  # it will read the whole file and store it in data variable
