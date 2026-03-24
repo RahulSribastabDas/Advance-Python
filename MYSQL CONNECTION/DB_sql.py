@@ -34,6 +34,20 @@ print(db_cursor.rowcount,"data inserted")'''
 db_select=db_cursor.fetchall()
 print(db_cursor)'''
 
-db_cursor.execute("select * from emp")
+'''db_cursor.execute("select * from emp")
 for i in db_cursor.fetchall():
-    print(i)
+    print(i)'''
+
+#Step 7: update data inside table
+''''db_update="update emp set id=%s where name=%s"
+db_values=(7,"Laxman")
+db_cursor.execute(db_update,db_values)
+mydb.commit()
+print(db_cursor.rowcount,"Data Updated")'''
+
+#Step 8: delete data from table
+db_delete="delete from emp where name=%s"
+db_value=("Laxman",)
+db_cursor.execute(db_delete,db_value)
+mydb.commit()
+print(db_cursor.rowcount,"Data Deleted")
