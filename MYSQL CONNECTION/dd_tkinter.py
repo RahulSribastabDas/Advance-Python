@@ -24,11 +24,39 @@ l1.place(x=100,y=50)
 l1.pack()'''
 
 #3.checkbox
-def check():
+'''def check():
     print(var.get())
 
 var=StringVar    
 chk=Checkbutton(root,text="Accept",variable=var,bg="Red")
-chk.pack()
-b=Button(root,command=check)
+chk.pack()'''
+
+
+'''b=Button(root,text="submit",command=check)
+b.pack()'''
+
+#4.Input Field - Entry
+'''def user_input():
+    print(Entry.get())
+
+en=Entry(root)
+en.pack()
+
+b=Button(root,text="submit",command=user_input)
+b.pack()'''
+
+#5.Radiobutton
+'''def show():
+    print(var.get())
+
+    
+
+var = StringVar  
+rb1 = Radiobutton(root,text="Male",variable=var,value="Male")  
+rb2 = Radiobutton(root,text="Female",variable=var,value="Female")
+rb1.pack()
+rb2.pack()
+
+b=Button(root,text="submit",command=show)
+b.pack()'''
 root.mainloop()#
